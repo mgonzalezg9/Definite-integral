@@ -6,9 +6,12 @@ The method used is the Trapezoidal rule. By default it calculates the integral f
 
 ## Running the file
 
-It requires to install the Free Pascal Compiler (fpc):
+It requires to install the <a href="https://www.freepascal.org/">Free Pascal Compiler</a> (fpc):
 
 ```sh
-fpc aproxintegral.pas
+$ fpc aproxintegral.pas
 ```
-
+Now we can execute the binary file
+```sh
+$ ./aproxintegral 
+```
